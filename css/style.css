@@ -64,15 +64,28 @@ main>section{
 }
 .group{
     display: flex;
+    gap: 30px;
+    background: linear-gradient(90deg, rgba(174, 238, 182, 1) 0%, rgba(148, 187, 233, 1) 100%); ;
+}
+.group>div{
+    width: 25%;
+    min-height: 100px;
+    border: 1px solid gray;
+    background: beige;
+    display: flex;
     justify-content: center;
-    gap: 60px;
+    align-items: center;
+    border-radius: 30px;
 }
-.group>a>svg{
-    margin-right: 20px;
+.group>div>a>svg{
+    margin-right: 10px;
 }
-.group>a{
+.group>div>a{
     text-decoration: none;
     font-size: 20px;
+    text-align: center;
+    color: black;
+
 }
 footer>ul{
     min-height: 8vh;
@@ -93,7 +106,7 @@ footer ul li a {
 .form>h1{
     text-decoration: underline;
     text-decoration-color: gray;
-    
+
 }
 .form{
     margin-left: 25%;
@@ -126,4 +139,22 @@ input,textarea{
     border-radius: 10px;
     width: 150px;
     border: 1px solid white
+}
+.contenu{
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.contenu>ul{
+    min-height: 8vh;
+    list-style: none;
+    gap: 40px;
+}
+.contenu>ul>li>a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
