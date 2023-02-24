@@ -1,0 +1,101 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(174, 238, 182);
+    background: linear-gradient(90deg, rgba(174, 238, 182, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+header,footer{
+    min-height: 8vh;
+    background: beige;
+    margin: 0 10px;
+    border: 1px solid gray; 
+}
+.contact{
+    display: flex;
+    gap: 30px;
+    min-height: 4vh;
+    justify-content: right;
+
+    padding:15px;
+    border: 1px solid gray;
+}
+
+.contact a,.nav a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 4vh;
+    
+}
+
+.nav{
+    gap: 30px;
+    min-height: 4vh;
+    padding:15px;
+    border: 1px solid gray; 
+}
+.nav2>ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.learn>a{
+    font-family: 'Shantell Sans', cursive;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+main{
+    min-height: 8vh;
+    background: linear-gradient(90deg, rgba(174, 238, 182, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    margin: 0 10px;
+    padding:15px;
+    border: 1px solid gray; 
+    min-height: 800px;
+}
+main>section{
+    min-height: 4vh;
+    background: beige;
+}
+.group{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.group>a>svg{
+    margin-right: 20px;
+}
+.group>a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer>ul{
+    min-height: 8vh;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+footer ul li{
+    display: block;
+}
+footer ul li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
