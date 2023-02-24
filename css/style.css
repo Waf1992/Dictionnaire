@@ -9,6 +9,8 @@ header,footer{
     background: beige;
     margin: 0 10px;
     border: 1px solid gray; 
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .contact{
     display: flex;
@@ -72,17 +74,6 @@ main>section{
     text-decoration: none;
     font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
 footer>ul{
     min-height: 8vh;
     display: flex;
@@ -98,4 +89,41 @@ footer ul li a {
     text-decoration: none;
     color: black;
     text-align: center;
+}
+.form>h1{
+    text-decoration: underline;
+    text-decoration-color: gray;
+    
+}
+.form{
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+    margin-top: 20vh;
+    max-width: 600px;
+    border: 4px solid gray;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+label{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+input,textarea{
+    max-width:300px;
+    background: gray;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid white
+    ;
+}
+#submit_button{
+    border-radius: 10px;
+    width: 150px;
+    border: 1px solid white
 }
